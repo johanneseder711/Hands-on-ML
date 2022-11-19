@@ -43,15 +43,15 @@ There is
 ### Bad Models
 1. Overfitting the Training Data
 The model performs well on the training data but bad on the test data. Usually when the model is to complex and the model may learn the data by hard or adapt to noise in the data itself. Solutions may be
-* Use a simpler model
-* Gather more data
-* Reduce the noise in the data
+    * Use a simpler model
+    * Gather more data
+    * Reduce the noise in the data
 A common method to make a model simpler or to reduce the risk of overfitting is called __regularization__. This is a so called __hyper-parameter__ (a parameter of the learning algorithm and not the model itself), this means it has to be set prior to training and remains constant during training (usually).
 2. Underfitting the Training Data
 The model performs bad on the training and the test data. Usually the model is to simple to capture the underlying patterns in the data. Fix this with
-* A more complex model
-* Better features
-* Reducing the contraints on the model (reduce hyper-paramter shrinkage)
+    * A more complex model
+    * Better features
+    * Reducing the contraints on the model (reduce hyper-paramter shrinkage)
 
 ### Testing and Validation
 
